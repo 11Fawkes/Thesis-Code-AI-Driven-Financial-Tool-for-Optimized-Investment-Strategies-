@@ -1,0 +1,41 @@
+AI-Driven-Financial-Tool-for-Optimized-Investment-Strategies-
+
+🚀 **Stock Prediction with LSTM, SMA Strategies & SHAP Explainability**  
+
+## **🔹 Overview**  
+This project is a **comprehensive stock market analysis tool** that integrates **machine learning, technical analysis, and explainability techniques** to enhance financial decision-making.  
+It leverages **LSTM (Long Short-Term Memory) for stock price prediction**, **Simple Moving Averages (SMA) for trend analysis**, and **SHAP (SHapley Additive Explanations) for interpretability**.  
+
+## **🔹 Key Features & Steps**
+1️⃣ **Real-Time Stock Data Extraction**  
+- Uses **Yahoo Finance API** to download stock market data.  
+- Supports multiple stock tickers & customizable time periods.  
+
+2️⃣ **Stock Market Trend Analysis with SMA**  
+✔ Computes **SMA (Simple Moving Averages) - 30-day & 60-day** for trend identification.  
+✔ Generates **Buy/Sell signals** based on SMA crossover strategy.  
+
+3️⃣ **Stock Price Prediction using LSTM**  
+✔ Prepares **time-series data for LSTM training** using **MinMax Scaling**.  
+✔ Trains an **LSTM model with sequential layers** to predict future stock prices.  
+✔ Evaluates model accuracy using **RMSE (Root Mean Squared Error) & MAE (Mean Absolute Error)**.  
+
+4️⃣ **Model Interpretability with SHAP (Explainability)**  
+✔ Uses **SHAP values to explain LSTM model predictions**.  
+✔ Visualizes **feature importance using SHAP summary plots**.  
+
+5️⃣ **Interactive Streamlit Dashboard**  
+✔ Provides an **interactive UI** to explore stock trends & predictions.  
+✔ Displays **live stock charts, SMA crossovers, and LSTM predictions**.  
+
+## **🔹 Technologies Used**
+- **Python (Pandas, NumPy, Matplotlib, Seaborn, TensorFlow, Scikit-Learn, SHAP)**  
+- **Yahoo Finance API (yfinance) for real-time stock data retrieval**  
+- **Machine Learning Models (LSTM for time-series prediction)**  
+- **Streamlit for Interactive Web Dashboard**  
+
+## **📌 Why This Project Matters**
+This project **bridges technical analysis with machine learning** to provide **data-driven insights for stock trading**.  
+By integrating **LSTM for predictive analytics and SHAP for explainability**, it ensures transparency and **better investment decisions**.  
+
+📂 **Explore the full repository to see the implementation, data, and results!** 🚀  
